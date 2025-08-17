@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: dwk1-app-svc
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: dwk1-app
   ports:
